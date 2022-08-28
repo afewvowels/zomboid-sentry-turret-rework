@@ -1,0 +1,109 @@
+module Base
+{
+		imports
+		{
+			Base
+		}
+
+	sound ST_PistolShoot0
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/Magnum/Shoot,
+			distanceMax = 999,
+      volume = 0.4,
+      pitch= 0.5,
+		}
+	}
+	sound ST_PistolShoot1
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/Magnum/Shoot,
+			distanceMax = 999,
+      volume = 0.4,
+      pitch= 1.0,
+		}
+	}
+	sound ST_PistolShoot2
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/Magnum/Shoot,
+			distanceMax = 999,
+      volume = 0.4,
+      pitch= 1.5,
+		}
+	}
+
+	sound ST_ShotgunShoot0
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/JS2000Shotgun/Shoot,
+			distanceMax = 999,
+      volume = 0.6,
+      pitch= 0.5,
+		}
+	}
+	sound ST_ShotgunShoot1
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/JS2000Shotgun/Shoot,
+			distanceMax = 999,
+      volume = 0.6,
+      pitch= 1.0,
+		}
+	}
+	sound ST_ShotgunShoot2
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/JS2000Shotgun/Shoot,
+			distanceMax = 999,
+      volume = 0.6,
+      pitch= 1.5,
+		}
+	}
+
+	sound ST_SniperShoot0
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Shoot,
+			distanceMax = 999,
+      volume = 0.8,
+      pitch= 0.5,
+		}
+	}
+	sound ST_SniperShoot1
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Shoot,
+			distanceMax = 999,
+      volume = 0.8,
+      pitch= 1.0,
+		}
+	}
+	sound ST_SniperShoot2
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Shoot,
+			distanceMax = 999,
+      volume = 0.8,
+      pitch= 1.5,
+		}
+	}
+}

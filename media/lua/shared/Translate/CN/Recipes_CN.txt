@@ -1,0 +1,5 @@
+Recipes_CN = {
+    Recipe_Make_Pistol_Turret = "制作手枪炮塔",
+    Recipe_Make_Shotgun_Turret = "制作霰弹炮塔",
+    Recipe_Make_Sniper_Turret = "制作狙击炮塔",
+}

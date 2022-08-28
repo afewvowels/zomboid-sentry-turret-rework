@@ -1,0 +1,92 @@
+module Base
+{
+		imports
+		{
+			Base
+		}
+
+		item STPistolTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+    Capacity = 500,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= SentrysTiles_0,
+		DisplayName 		= Pistol Turret,
+		Icon 		= STPistolTurret,
+	}
+		item STShotgunTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+    Capacity = 500,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= SentrysTiles_4,
+		DisplayName 		= Shotgun Turret,
+		Icon 		= STShotgunTurret,
+	}
+		item STSniperTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+    Capacity = 500,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= SentrysTiles_8,
+		DisplayName 		= Sniper Turret,
+		Icon 		= STSniperTurret,
+	}
+
+		recipe Make Pistol Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       Pistol/Pistol2/Pistol3/Revolver/Revolver_Short/Revolver_Long,
+       keep Wrench/PipeWrench,
+
+       Result:STPistolTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+		recipe Make Shotgun Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       Shotgun/ShotgunSawnoff/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff,
+       keep Wrench/PipeWrench,
+
+       Result:STShotgunTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+		recipe Make Sniper Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       VarmintRifle/HuntingRifle/AssaultRifle/AssaultRifle2,
+       keep Wrench/PipeWrench,
+
+       Result:STSniperTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+
+        item STEngineerMagazine
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Engineer Gaming Magazine,
+        Icon	=	STEngineerMagazine,
+        TeachedRecipes  =   Make Pistol Turret;Make Shotgun Turret;Make Sniper Turret,
+        ReplaceOnUse    =   STEngineerMagazine,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineEngi1Ground,
+    }
+
+}

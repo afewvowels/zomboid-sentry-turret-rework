@@ -1,0 +1,6 @@
+ItemName_CN = {
+    ItemName_Base.STPistolTurret = "手枪炮塔",
+    ItemName_Base.STShotgunTurret = "霰弹炮塔",
+    ItemName_Base.STSniperTurret = "狙击炮塔",
+    ItemName_Base.STEngineerMagazine = "工程师游戏杂志",
+}

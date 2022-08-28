@@ -1,0 +1,7 @@
+name=Sentry Turret
+poster=poster.png
+icon=icon.png
+id=SentryTurret01
+description=Add 3 Sentry Turret guns
+pack=packsentryturret
+tiledef=tiledefsentryturret 696

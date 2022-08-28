@@ -1,0 +1,6 @@
+IGUI_CN = {
+    IGUI_ContainerTitle_TurretPistol = "手枪炮塔",
+    IGUI_ContainerTitle_TurretShotgun = "霰弹炮塔",
+    IGUI_ContainerTitle_TurretSniper = "狙击炮塔",
+    IGUI_ItemCat_Turret ="炮塔",
+}

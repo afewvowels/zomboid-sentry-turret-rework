@@ -1,0 +1,6 @@
+ItemName_EN = {
+    ItemName_Base.STPistolTurret = "Handgun Turret",
+    ItemName_Base.STShotgunTurret = "Shotgun Turret",
+    ItemName_Base.STSniperTurret = "Sniper Turret",
+    ItemName_Base.STEngineerMagazine = "Engineer Gaming Magazine",
+}
